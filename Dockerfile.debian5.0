@@ -1,0 +1,2 @@
+FROM debian/eol:lenny
+RUN apt-get update && apt-get install -y bash busybox dash ksh mksh pdksh posh zsh time procps

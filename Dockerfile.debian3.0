@@ -1,0 +1,2 @@
+FROM debian/eol:woody
+RUN apt-get update && apt-get install -y bash pdksh zsh time procps
